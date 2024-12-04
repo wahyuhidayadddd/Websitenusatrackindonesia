@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>NusaTrackIndonesia</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/nusa.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+<style>
+  .img {
+    position: relative;
+    overflow: hidden;
+    width: 100%; 
+    height: 200px; 
+  }
+.img img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+</style>
+</head>
+
+<body class="index-page">
+  <div id="loading" class="loading-spinner">
+    <div class="spinner"></div>
+</div>
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+    
+        <h1 class="sitename">NusaTrack Indonesia</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          
+          <li><a href="#pricing">Pricing</a></li>
+          
+          
+          <!-- <li class="dropdown">
+            <a href="#"><span>Additional Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+          
+              <li class="dropdown">
+                <a href="#"><span>Armada</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Manajemen Armada</a></li>
+                  <li><a href="#">Mi-Fleet</a></li>
+                  <li><a href="#">Pemantauan Sepeda Motor</a></li>
+                  <li><a href="#">Live Vision</a></li>
+                </ul>
+              </li>
+              
+            
+              <li class="dropdown">
+                <a href="#"><span>Mobil</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Protector</a></li>
+                  <li><a href="#">Peringatan Tabrakan</a></li>
+                  <li><a href="#">CarWatch (segera hadir)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li> -->
+          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out">
+            <img src="assets/img/nusa3.jpeg" alt="Phone 1" class="phone-1">
+            <img src="assets/img/nusa2.jpeg" alt="Phone 2" class="phone-2">
+          </div>
+          <div class="col-lg-8 d-flex flex-column justify-content-center align-items text-center text-md-start" data-aos="fade-up">
+            <h2>Manajemen Armada Lebih Mudah</h2>
+            <p>Unduh Aplikasi Nusatrack di Play Store dan App Store Sekarang!</p>
+            <div class="d-flex mt-4 justify-content-center justify-content-md-start">
+              <a href="#" class="download-btn"><i class="bi bi-google-play"></i> <span>Google Play</span></a>
+              <a href="#" class="download-btn"><i class="bi bi-apple"></i> <span>App Store</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <div class="col-xl-5 content">
+            <h3>Tentang Kami</h3>
+            <h2>Nusatrack: Solusi Manajemen Armada Terdepan</h2>
+            <p>Nusatrack adalah perusahaan terdepan dalam solusi manajemen armada dan pelacakan kendaraan di Indonesia. Kami menggunakan teknologi terkini untuk meningkatkan efisiensi operasional dan keamanan transportasi.</p>
+            <p>Dengan kerjasama bersama berbagai perusahaan rental mobil, logistik, dan kendaraan pribadi di berbagai kota, kami menyediakan solusi yang disesuaikan untuk kebutuhan spesifik pelanggan.</p>
+            <p>Kami berkomitmen untuk memberikan layanan andal dan inovatif, membantu pelanggan meningkatkan produktivitas dan mengurangi biaya operasional. Nusatrack siap menjadi mitra terpercaya dalam manajemen armada Anda.</p>
+            <!-- <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a> -->
+        </div>
+        
+
+        <div class="col-xl-7">
+          <div class="row gy-4 icon-boxes">
+      
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-box">
+                      <i class="bi bi-car-front"></i> <!-- Ikon untuk manajemen armada -->
+                      <h3>Solusi Cerdas untuk Manajemen Armada</h3>
+                      <p>Nusatrack menawarkan solusi manajemen armada yang inovatif dan efisien, memastikan kendaraan dikelola dengan baik untuk mengurangi biaya operasional dan meningkatkan produktivitas.</p>
+                  </div>
+              </div> <!-- End Icon Box -->
+      
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box">
+                      <i class="bi bi-geo-alt"></i> <!-- Ikon untuk pelacakan -->
+                      <h3>Pantau Kendaraan Secara Real-Time</h3>
+                      <p>Dengan sistem pelacakan kendaraan yang canggih, Anda dapat memantau armada Anda secara real-time, memberikan Anda kendali penuh atas setiap kendaraan.</p>
+                  </div>
+              </div> <!-- End Icon Box -->
+      
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box">
+                      <i class="bi bi-shield-lock"></i> <!-- Ikon untuk keamanan -->
+                      <h3>Cegah Kehilangan Kendaraan Anda</h3>
+                      <p>Dengan fitur pelacakan dan pengawasan yang handal, Nusatrack membantu mencegah kehilangan kendaraan, memberikan keamanan tambahan bagi armada Anda.</p>
+                  </div>
+              </div> <!-- End Icon Box -->
+      
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="icon-box">
+                      <i class="bi bi-people-fill"></i> <!-- Ikon untuk kemitraan -->
+                      <h3>Kemitraan Strategis untuk Keberhasilan Bisnis</h3>
+                      <p>Dengan pengalaman bekerja sama dengan berbagai perusahaan rental mobil dan logistik, kami menawarkan solusi yang disesuaikan untuk memenuhi kebutuhan spesifik setiap pelanggan.</p>
+                  </div>
+              </div> <!-- End Icon Box -->
+      
+          </div>
+      </div>
+      
+
+        </div>
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Featured Section -->
+    <section id="featured" class="featured section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+          <h2>Hemat Waktu dan Amankan Armada Anda dengan Nusatrack</h2>
+          <p>Pantau, lindungi, dan optimalkan armada kendaraan Anda dengan solusi manajemen komprehensif Nusatrack.</p>
+      </div><!-- End Section Title -->
+  
+      <div class="container">
+  
+          <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+  
+              <!-- Card 1: Real-Time Vehicle Tracking -->
+              <div class="col-md-4">
+                <div class="card">
+                    <div class="img">
+                        <img src="assets/img/gps.png" alt="Real-Time Vehicle Tracking" class="img-fluid">
+                        <div class="icon"><i class="bi bi-hdd-stack"></i></div>
+                    </div>
+                    <h2 class="title">Pelacakan Kendaraan Real-Time</h2>
+                    <p>
+                        Pantau lokasi kendaraan Anda secara langsung untuk memastikan keamanan dan ketepatan waktu. Dapatkan notifikasi instan untuk setiap aktivitas tidak terduga.
+                    </p>
+                </div>
+            </div><!-- End Card Item -->
+            
+            <!-- Card 2: Enhanced Vehicle Security -->
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card">
+                    <div class="img">
+                        <img src="assets/img/mobilrental.png" alt="Enhanced Vehicle Security" class="img-fluid">
+                        <div class="icon"><i class="bi bi-brightness-high"></i></div>
+                    </div>
+                    <h2 class="title">Permudah Bisnis Anda dengan Pantauan Jarak Jauh</h2>
+                    <p>
+                        Manfaatkan teknologi pelacakan canggih dari Nusatrack untuk memantau kendaraan Anda dari mana saja. Ideal untuk rental mobil, logistik, dan kendaraan pribadi—pastikan setiap perjalanan tetap aman dan efisien!
+                    </p>
+                </div>
+            </div><!-- End Card Item -->
+            
+              <!-- Card 3: Optimized Fleet Efficiency -->
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                  <div class="card">
+                      <div class="img">
+                          <img src="assets/img/cards-6.png" alt="Optimized Fleet Efficiency" class="img-fluid">
+                          <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+                      </div>
+                      <h2 class="title">Efisiensi Armada Maksimal</h2>
+                      <p>
+                          Kelola rute, konsumsi bahan bakar, dan produktivitas pengemudi untuk meningkatkan performa dan mengurangi biaya operasional secara keseluruhan.
+                      </p>
+                  </div>
+              </div><!-- End Card Item -->
+  
+          </div>
+  
+      </div>
+  
+  </section>
+  
+
+    <!-- Cards Section -->
+    <section id="cards" class="cards section">
+
+      <div class="container">
+
+        <div class="text-center mb-4 steps-img" data-aos="zoom-out">
+          <h2 style="font-weight: bold; color: #225469; font-size: 36px;">Fungsi produk</h2>
+          <p style="color: #225469; font-weight: bold; font-size: 24px;">Nusa Track dilengkapi dengan fitur RRS</p>
+        </div>
+        
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item" style="text-align: center;">
+              <img src="assets/img/record.png" alt="Record Icon" class="card-icon" style="width: 100px; height: 100px; margin-bottom: 10px;" />
+              <h4>RECORD</h4>
+              <p>Merekam data kendaraan fungsinya mirip dengan blackbox pada pesawat terbang.</p>
+            </div>
+          </div>
+          
+          
+          <!-- Card Item -->
+
+     
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item" style="text-align: center;">
+              <img src="assets/img/remind.png" alt="Record Icon" class="card-icon" style="width: 100px; height: 100px; margin-bottom: 10px;" />
+              <h4>REMIND</h4>
+              <p>Dilengkapi dengan fitur sistem peringatan yang mendeteksi aktivitas berkendara di luar kendali.</p>
+            </div>
+          </div>
+          
+          
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item" style="text-align: center;">
+              <img src="assets/img/safe.png" alt="Record Icon" class="card-icon" style="width: 100px; height: 100px; margin-bottom: 10px;" />
+              <h4>SAFE</h4>
+              <p>Memberikan informasi kesehatan mesin kendaraan yang dapat mengurangi kerusakan di pinggir jalan.</p>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+
+    </section><!-- /Cards Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Fitur Unggulan</h2>
+        <p>Temukan fitur inovatif yang meningkatkan pengalaman Anda dengan Nusa Track.</p>
+      </div>
+    
+      <div class="container">
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/lacaknyata.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+            <h3>Pelacakan Waktu Nyata</h3>
+            <p class="fst-italic">Tetap terhubung dengan pelacakan kendaraan secara waktu nyata untuk memastikan keamanan dan efisiensi.</p>
+            <ul>
+              <li><i class="bi bi-check"></i><span>Notifikasi instan untuk aktivitas yang tidak biasa.</span></li>
+              <li><i class="bi bi-check"></i><span>Akses riwayat perjalanan secara detail.</span></li>
+              <li><i class="bi bi-check"></i><span>Monitor rute dan konsumsi bahan bakar.</span></li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+              <img style="width: 100%;" src="assets/img/matimobil.png" class="img-fluid" alt="Keamanan Kendaraan">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+              <h3>Keamanan Kendaraan</h3>
+              <p class="fst-italic">Lindungi kendaraan Anda dengan fitur keamanan yang handal.</p>
+              <p>Matikan alarm dan nyalakan alarm dengan aplikasi, serta matikan mesin dari jarak jauh jika diperlukan.</p>
+              <p>Dapatkan notifikasi segera jika ada aktivitas mencurigakan.</p>
+              <ul>
+                  <li><i class="bi bi-check"></i><span>Kontrol keamanan mobil dari smartphone Anda.</span></li>
+                  <li><i class="bi bi-check"></i><span>Matikan mesin kendaraan dari jarak jauh.</span></li>
+                  <li><i class="bi bi-check"></i><span>Notifikasi instan untuk aktivitas mencurigakan.</span></li>
+              </ul>
+          </div>
+      </div>
+      
+      <div class="row gy-4 align-items-center features-item">
+        <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
+            <img src="assets/img/pantauu.png" class="img-fluid" alt="Pemantauan Perilaku Supir">
+        </div>
+        <div class="col-md-7" data-aos="fade-up">
+            <h3>Pemantauan Perilaku Supir</h3>
+            <p>Pantau perilaku pengemudi secara real-time untuk meningkatkan keselamatan dan efisiensi armada Anda.</p>
+            <ul>
+                <li><i class="bi bi-check"></i> <span>Amati pola berkendara, termasuk kecepatan dan teknik pengereman.</span></li>
+                <li><i class="bi bi-check"></i> <span>Identifikasi perilaku ugal-ugalan dan ambil tindakan preventif.</span></li>
+                <li><i class="bi bi-check"></i> <span>Gunakan kamera HD depan dan belakang untuk pemantauan langsung dan dokumentasi.</span></li>
+                <li><i class="bi bi-check"></i> <span>Dapatkan wawasan untuk meningkatkan pelatihan dan disiplin pengemudi.</span></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    <div class="row gy-4 align-items-center features-item">
+      <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
+          <img src="assets/img/minyak.png" class="img-fluid" alt="Manajemen Bahan Bakar">
+      </div>
+      <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
+          <h3>Manajemen Bahan Bakar</h3>
+          <p class="fst-italic">Akan Segera Hadir!</p>
+          <p>Optimalkan penggunaan bahan bakar dan kurangi pengeluaran Anda dengan analisis yang mudah.</p>
+          <p>Anda dapat melacak seberapa banyak bahan bakar yang digunakan dan mencari tahu di mana bisa berhemat.</p>
+          <ul>
+              <li><i class="bi bi-check"></i> Pantau penggunaan bahan bakar setiap kendaraan.</li>
+              <li><i class="bi bi-check"></i> Ketahui kapan bahan bakar hampir habis.</li>
+              <li><i class="bi bi-check"></i> Dapatkan saran untuk menghemat bahan bakar.</li>
+              <li><i class="bi bi-check"></i> Hindari kehabisan bahan bakar saat berkendara.</li>
+          </ul>
+          <p class="text-danger">Jangan lewatkan fitur ini untuk menghemat biaya dan menjaga kendaraan Anda selalu siap!</p>
+      </div>
+  </div>
+  
+    </section>
+    
+    
+    <!-- <section id="gallery" class="gallery section">
+
+     
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Gallery</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 30
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 30
+                },
+                "1200": {
+                  "slidesPerView": 7,
+                  "spaceBetween": 30
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-1.png"><img src="assets/img/app-gallery/app-gallery-1.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-2.png"><img src="assets/img/app-gallery/app-gallery-2.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-3.png"><img src="assets/img/app-gallery/app-gallery-3.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-4.png"><img src="assets/img/app-gallery/app-gallery-4.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-5.png"><img src="assets/img/app-gallery/app-gallery-5.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-6.png"><img src="assets/img/app-gallery/app-gallery-6.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-7.png"><img src="assets/img/app-gallery/app-gallery-7.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-8.png"><img src="assets/img/app-gallery/app-gallery-8.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-9.png"><img src="assets/img/app-gallery/app-gallery-9.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-10.png"><img src="assets/img/app-gallery/app-gallery-10.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-11.png"><img src="assets/img/app-gallery/app-gallery-11.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery-full" href="assets/img/app-gallery/app-gallery-12.png"><img src="assets/img/app-gallery/app-gallery-12.png" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section> -->
+    <section  id="features" class="features section">
+      <div class="container">
+          <h2 class="section-title">Fitur Terbaik GPS Tracker NusaTrack</h2>
+          <p class="section-description">Fitur-fitur GPS kami dirancang untuk memberikan pengalaman navigasi yang unggul dan penuh keandalan.</p>
+          
+          <div class="features-grid">
+              <div class="feature-item">
+                  <img src="assets/img/realtime.svg" alt="Realtime Monitoring" class="feature-icon">
+                  <h3>Realtime Monitoring</h3>
+                  <p>Pantau kendaraan anda secara realtime 24 jam baik menggunakan layanan website ataupun aplikasi mobile.</p>
+              </div>
+              <div class="feature-item">
+                  <img src="assets/img/engine.svg" alt="Engine Cut Off" class="feature-icon">
+                  <h3>Engine Cut Off</h3>
+                  <p>Matikan kendaraan anda kapanpun dan dimanapun dengan tombol “Engine kill” pada aplikasi tracking.</p>
+              </div>
+              <div class="feature-item">
+                  <img src="assets/img/dashboard.svg" alt="Dashboard & Report" class="feature-icon">
+                  <h3>Dashboard & Report</h3>
+                  <p>Download laporan perjalanan seperti lokasi, kecepatan, vibration alert, indikasi perusakan GPS bahkan estimasi bahan bakar dsb.</p>
+              </div>
+              <div class="feature-item">
+                  <img src="assets/img/videomonitoring.svg" alt="Video Monitoring" class="feature-icon">
+                  <h3>Video Monitoring</h3>
+                  <p>Matikan kendaraan anda kapanpun dan dimanapun dengan tombol “Engine kill” pada aplikasi tracking.</p>
+              </div>
+              <div class="feature-item">
+                  <img src="assets/img/replay.svg" alt="Replay History" class="feature-icon">
+                  <h3>Replay History</h3>
+                  <p>Anda dapat memutar ulang rute mana saja yang pernah dilalui, sesuai kebutuhan anda dengan Replay History.</p>
+              </div>
+              <div class="feature-item">
+                  <img src="assets/img/obd.svg" alt="OBD" class="feature-icon">
+                  <h3>OBD</h3>
+                  <p>Terdapat fitur OBD pada GPS yang dapat memberikan informasi dan juga report dari kendaraan anda.</p>
+              </div>
+              <div class="feature-item">
+                  <img src="assets/img/fuel.svg" alt="Fuel Monitoring" class="feature-icon">
+                  <h3>Fuel Monitoring</h3>
+                  <p>Menggunakan sensor yang dapat mendeteksi level pengisian maupun pencurian bahan bakar.</p>
+              </div>
+              <div class="feature-item">
+                  <img src="assets/img/sadap.svg" alt="Sadap Suara" class="feature-icon">
+                  <h3>Sadap Suara</h3>
+                  <p>Sadap percakapan didalam kabin hanya dengan call nomor GSM GPS tracking pada kendaraan anda.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  
+  <section id="testimonials" class="testimonials section light-background">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Testimonials</h2>
+      <p>Pengalaman kami telah diakui oleh berbagai mitra dan klien kami dari berbagai sektor.</p>
+    </div><!-- End Section Title -->
+  
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          {
+            "loop": true,
+            "speed": 600,
+            "autoplay": {
+              "delay": 5000
+            },
+            "slidesPerView": "auto",
+            "pagination": {
+              "el": ".swiper-pagination",
+              "type": "bullets",
+              "clickable": true
+            }
+          }
+        </script>
+        <div class="swiper-wrapper">
+  
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img src="assets/img/mbm.jpg" class="testimonial-img" alt="PT. Beton Bagunys">
+              <h3>PT.Mitra Beton</h3>
+              <h4>Construction Solutions</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>Dengan bantuan NusaTrack, kami dapat mengelola dan memonitor peralatan konstruksi kami secara lebih efisien, sehingga meningkatkan produktivitas dan keamanan proyek kami.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+          <!-- End testimonial item -->
+  
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img src="assets/img/gbm.jpg" class="testimonial-img" alt="PT. Global Rental Mobil">
+              <h3>PT. Global Rental Mobil</h3>
+              <h4>Rental Car Services</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>Dengan fitur monitoring dan laporan real-time, kami bisa melacak kendaraan kami dan menjaga kualitas layanan rental dengan lebih baik.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+  
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img src="assets/img/jaya.jpg" class="testimonial-img" alt="Andi Rental">
+              <h3>Andi Rental</h3>
+              <h4>Rental & Transport</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>Dengan GPS NusaTrack , kami memiliki kendali penuh terhadap kendaraan kami. Fitur engine cut off membantu kami meningkatkan keamanan armada.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+  
+          <!-- <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img src="assets/img/testimonials/testimonials-jadijaya.jpg" class="testimonial-img" alt="Jadi Jaya">
+              <h3>Jadi Jaya</h3>
+              <h4>Logistics & Supply Chain</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>Kami menggunakan GPS Tracker Primanusa untuk memastikan semua armada dalam kondisi terbaik dan selalu tepat waktu dengan fitur tracking dan laporan yang komprehensif.</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div><!-- End testimonial item -->
+  
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  
+  </section>
+  
+ 
+    <section id="pricing" class="pricing section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+          <h2>Pricing</h2>
+          <p>Rincian Paket & Fitur PT. Nusa Track Indonesia</p>
+      </div><!-- End Section Title -->
+  
+      <div class="container" data-aos="zoom-in" data-aos-delay="100">
+  
+          <div class="row g-4">
+  
+              <div class="col-lg-4">
+                  <div class="pricing-item">
+                      <h3>GPS</h3>
+                      <div class="icon">
+                          <i class="bi bi-geo-alt"></i>
+                      </div>
+                      <h4><sup>$</sup>350<span> / month</span></h4>
+                      <ul>
+                          <li><i class="bi bi-check"></i> <span>Total for 36 Months: <strong>$12,600</strong></span></li>
+                          <li><i class="bi bi-check"></i> <span>Annual Renewal Price: <strong>$5,000</strong></span></li>
+                      </ul>
+                      <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
+                  </div>
+              </div><!-- End Pricing Item -->
+  
+              <div class="col-lg-4">
+                  <div class="pricing-item featured">
+                      <h3>GPS + Camera + Fuel Sensor</h3>
+                      <div class="icon">
+                          <i class="bi bi-fuel-pump"></i> <!-- Ganti ikon di sini -->
+                      </div>
+                      <h4><sup>$</sup>3,000<span> / month</span></h4>
+                      <ul>
+                          <li><i class="bi bi-check"></i> <span>Total for 36 Months: <strong>$108,000</strong></span></li>
+                          <li><i class="bi bi-check"></i> <span>Annual Renewal Price: <strong>$10,000</strong></span></li>
+                      </ul>
+                      <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
+                  </div>
+              </div><!-- End Pricing Item -->
+  
+              <div class="col-lg-4">
+                  <div class="pricing-item">
+                      <h3>GPS + Camera</h3>
+                      <div class="icon">
+                          <i class="bi bi-camera"></i>
+                      </div>
+                      <h4><sup>$</sup>900<span> / month</span></h4>
+                      <ul>
+                          <li><i class="bi bi-check"></i> <span>Total for 36 Months: <strong>$32,400</strong></span></li>
+                          <li><i class="bi bi-check"></i> <span>Annual Renewal Price: <strong>$7,000</strong></span></li>
+                      </ul>
+                      <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
+                  </div>
+              </div><!-- End Pricing Item -->
+  
+          </div>
+  
+      </div>
+  
+  </section>
+  
+
+
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+          <h2>Pertanyaan yang Sering Diajukan (FAQ)</h2>
+          <p>Berikut adalah beberapa pertanyaan yang sering diajukan mengenai layanan kami. Jika Anda memiliki pertanyaan lain, jangan ragu untuk menghubungi kami.</p>
+      </div><!-- End Section Title -->
+  
+      <div class="container">
+  
+          <div class="row justify-content-center">
+  
+              <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+  
+                  <div class="faq-container">
+                    <div class="faq-item">
+                      <h3>Mengapa memilih Nusatrack?</h3>
+                      <div class="faq-content">
+                          <p>Nusatrack adalah pilihan terbaik untuk layanan GPS Anda. Kami memiliki pengalaman yang luas dalam menyediakan solusi pelacakan yang akurat dan efisien. Layanan pelanggan kami selalu siap membantu Anda dengan respons cepat dan profesional. Dengan teknologi terkini, kami memastikan Anda mendapatkan informasi real-time yang tepat, sehingga Anda bisa mengelola armada atau barang Anda dengan lebih baik. Kami percaya bahwa kepuasan pelanggan adalah yang terpenting, dan kami berkomitmen untuk memberikan solusi yang sesuai dengan kebutuhan Anda.</p>
+                      </div>
+                      <i class="faq-toggle bi bi-chevron-right"></i>
+                  </div><!-- End Faq item-->
+                  <div class="faq-item">
+                    <h3>Apa yang membedakan Nusatrack dari yang lain?</h3>
+                    <div class="faq-content">
+                        <p>Nusatrack menawarkan teknologi pelacakan yang canggih, dukungan pelanggan yang responsif, dan solusi yang dapat disesuaikan. Kami juga memiliki harga terjangkau, memungkinkan semua kalangan menikmati layanan berkualitas tinggi tanpa harus menguras kantong. Kepercayaan dan kepuasan pelanggan adalah prioritas utama kami.</p>
+                    </div>
+                    <i class="faq-toggle bi bi-chevron-right"></i>
+                </div><!-- End Faq item-->
+                                  
+                <div class="faq-item faq-active">
+                  <h3>Apa yang membuat layanan kami unik?</h3>
+                  <div class="faq-content">
+                      <p>Kami menawarkan solusi yang inovatif dengan teknologi terkini, didukung oleh tim profesional yang berpengalaman. Keunikan kami terletak pada pendekatan yang terpersonalisasi, di mana setiap layanan disesuaikan dengan kebutuhan spesifik Anda. Kami juga memiliki fitur yang tidak tersedia di produk lain, seperti pelacakan real-time yang akurat dan integrasi mudah dengan sistem yang ada. Dengan layanan pelanggan yang responsif dan jaminan kepuasan, kami siap membantu Anda mencapai tujuan Anda dengan lebih efektif.</p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+              
+                      <div class="faq-item">
+                          <h3>Bagaimana cara saya menghubungi layanan pelanggan?</h3>
+                          <div class="faq-content">
+                              <p>Anda dapat menghubungi layanan pelanggan kami melalui email, telepon, atau chat langsung di website kami. Tim kami siap membantu Anda 24/7 dengan segala pertanyaan dan kebutuhan Anda.</p>
+                          </div>
+                          <i class="faq-toggle bi bi-chevron-right"></i>
+                      </div><!-- End Faq item-->
+  
+                      <div class="faq-item">
+                          <h3>Apakah ada biaya tersembunyi dalam layanan Anda?</h3>
+                          <div class="faq-content">
+                              <p>Tidak ada biaya tersembunyi. Kami memberikan penawaran harga yang transparan dan jelas, sehingga Anda dapat dengan mudah memahami biaya yang terlibat tanpa ada kejutan di kemudian hari.</p>
+                          </div>
+                          <i class="faq-toggle bi bi-chevron-right"></i>
+                      </div><!-- End Faq item-->
+  
+                      <div class="faq-item">
+                          <h3>Apakah layanan kami terjangkau?</h3>
+                          <div class="faq-content">
+                              <p>Kami berkomitmen untuk menawarkan layanan berkualitas tinggi dengan harga yang kompetitif. Kami percaya bahwa setiap bisnis, besar atau kecil, berhak mendapatkan solusi yang terjangkau tanpa mengorbankan kualitas.</p>
+                          </div>
+                          <i class="faq-toggle bi bi-chevron-right"></i>
+                      </div><!-- End Faq item-->
+  
+                      <div class="faq-item">
+                          <h3>Apakah Anda menawarkan demo gratis dan pemasangan gratis?</h3>
+                          <div class="faq-content">
+                              <p>Ya, kami menawarkan demo gratis bagi pelanggan baru agar Anda dapat merasakan langsung manfaat dari layanan kami. Selain itu, kami juga menyediakan layanan pemasangan gratis untuk memastikan Anda dapat mulai menggunakan produk kami tanpa kendala.</p>
+                          </div>
+                          <i class="faq-toggle bi bi-chevron-right"></i>
+                      </div><!-- End Faq item-->
+  
+                      <div class="faq-item">
+                          <h3>Apakah Anda memberikan garansi untuk produk dan layanan Anda?</h3>
+                          <div class="faq-content">
+                              <p>Kami bangga menawarkan garansi seumur hidup untuk semua produk dan layanan kami. Jika Anda mengalami masalah, tim kami akan siap membantu Anda tanpa biaya tambahan, memastikan Anda puas dengan pengalaman Anda bersama kami.</p>
+                          </div>
+                          <i class="faq-toggle bi bi-chevron-right"></i>
+                      </div><!-- End Faq item-->
+  
+                      <div class="faq-item">
+                          <h3>Apakah layanan pemasangan tersedia di seluruh Indonesia?</h3>
+                          <div class="faq-content">
+                              <p>Ya, kami siap melakukan pemasangan di seluruh wilayah Indonesia. Dimanapun Anda berada, tim kami akan menjangkau lokasi Anda untuk memastikan pemasangan dilakukan dengan profesional dan tepat waktu.</p>
+                          </div>
+                          <i class="faq-toggle bi bi-chevron-right"></i>
+                      </div><!-- End Faq item-->
+  
+                      <div class="faq-item">
+                          <h3>Seberapa cepat saya bisa mendapatkan bantuan?</h3>
+                          <div class="faq-content">
+                              <p>Tim kami selalu siap membantu Anda dengan respons cepat. Dalam banyak kasus, Anda akan mendapatkan tanggapan dalam waktu 24 jam atau kurang, tergantung pada kompleksitas pertanyaan Anda.</p>
+                          </div>
+                          <i class="faq-toggle bi bi-chevron-right"></i>
+                      </div><!-- End Faq item-->
+  
+                      <div class="faq-item">
+                          <h3>Bagaimana saya bisa mengakses layanan Anda?</h3>
+                          <div class="faq-content">
+                              <p>Anda dapat mengakses layanan kami melalui situs web kami yang ramah pengguna, yang memungkinkan Anda untuk mendaftar dan mengelola layanan dengan mudah. Kami juga menyediakan aplikasi mobile untuk kenyamanan Anda.</p>
+                          </div>
+                          <i class="faq-toggle bi bi-chevron-right"></i>
+                      </div><!-- End Faq item-->
+  
+             
+                  </div>
+  
+              </div><!-- End Faq Column-->
+  
+          </div>
+  
+      </div>
+  
+  </section>
+  
+   
+  <section id="contact" class="contact section">
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Kontak</h2>
+        <p>Jika Anda memiliki pertanyaan atau butuh informasi lebih lanjut, jangan ragu untuk menghubungi kami.</p>
+    </div>
+
+    <div class="container" data-aos="fade" data-aos-delay="100">
+        <div class="row gy-4">
+            <div class="col-lg-4">
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bi bi-geo-alt flex-shrink-0"></i>
+                    <div>
+                        <h3>Alamat</h3>
+                        <p>Jl. Jend. Sudirman, Pekanbaru, Indonesia</p>
+                    </div>
+                </div>
+
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                    <i class="bi bi-telephone flex-shrink-0"></i>
+                    <div>
+                        <h3>Hubungi Kami</h3>
+                        <p>0822 8435 2106</p>
+                    </div>
+                </div>
+
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                    <i class="bi bi-envelope flex-shrink-0"></i>
+                    <div>
+                        <h3>Email Kami</h3>
+                        <p>nusatechnoindonesia@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <form action="https://formspree.io/f/xeoqebkq" method="POST" id="demoForm" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row gy-4">
+                        <div class="col-md-6">
+                            <input type="text" name="name" class="form-control" placeholder="Nama Anda" required="">
+                        </div>
+
+                        <div class="col-md-6">
+                            <input type="text" name="whatsapp" class="form-control" placeholder="Nomor WhatsApp" required="">
+                        </div>
+
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" name="email" placeholder="Email Anda" required="">
+                        </div>
+
+                        <div class="col-md-6">
+                            <input type="text" name="perusahaan" class="form-control" placeholder="Perusahaan" required="">
+                        </div>
+
+                        <div class="col-md-6">
+                            <select name="bidang_usaha" class="form-control" required="">
+                                <option value="">Pilih Bidang Usaha</option>
+                                <option value="pertanian">Pertanian</option>
+                                <option value="perdagangan">Perdagangan dan E-commerce</option>
+                                <option value="keuangan">Keuangan dan Perbankan</option>
+                                <option value="transportasi">Transportasi dan Logistik</option>
+                                <option value="kesehatan">Kesehatan</option>
+                                <option value="teknologi">Teknologi dan IT</option>
+                                <option value="pariwisata">Pariwisata dan Perhotelan</option>
+                                <option value="pendidikan">Pendidikan</option>
+                                <option value="energi">Energi</option>
+                                <option value="manufaktur">Manufaktur</option>
+                                <option value="konstruksi">Konstruksi dan Real Estate</option>
+                                <option value="hiburan">Hiburan dan Media</option>
+                                <option value="kecantikan">Kecantikan dan Kesehatan</option>
+                                <option value="olahraga">Olahraga dan Rekreasi</option>
+                                <option value="lingkungan">Lingkungan</option>
+                                <option value="layanan_profesional">Layanan Profesional</option>
+                                <option value="media_sosial">Media Sosial dan Komunikasi</option>
+                                <option value="food_and_beverage">Food and Beverage</option>
+                                <option value="telekomunikasi">Telekomunikasi</option>
+                                <option value="seni_dan_budaya">Seni dan Budaya</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-6">
+                            <input type="number" name="jumlah_kendaraan" class="form-control" placeholder="Jumlah Kendaraan" required="">
+                        </div>
+
+                        <div class="col-md-6">
+                            <select name="paket" class="form-control" required="">
+                                <option value="">Pilih Paket</option>
+                                <option value="gps">GPS</option>
+                                <option value="gps_camera_fuel">GPS + Camera + Fuel Sensor</option>
+                                <option value="gps_camera">GPS + Camera</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-12 text-center">
+                            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <!-- Tombol WhatsApp -->
+    <a href="https://wa.me/6282284352106?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20layanan%20GPS%20tracking%20yang%20Anda%20tawarkan.%20Saya%20juga%20ingin%20tahu%20software%20apa%20saja%20yang%20tersedia%20dan%20fitur-fitur%20unggulan%20yang%20dapat%20membantu%20kebutuhan%20bisnis%20saya.%20Terima%20kasih!" target="_blank" style="text-decoration: none;">
+      <div class="whatsapp-button" style="position: fixed; bottom: 70px; right: 20px; background-color: #25D366; border: 2px solid white; border-radius: 50%; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); transition: background-color 0.3s;">
+          <i class="fab fa-whatsapp" style="font-size: 24px; color: white;"></i> <!-- Ikon WhatsApp -->
+      </div>
+  </a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nusatechnoindonesia@gmail.com&su=Permohonan%20Informasi%20Tentang%20GPS%20Tracking&body=Halo%20Tim%20Nusa%20Techno,%0D%0A%0D%0ASaya%20ingin%20menanyakan%20tentang%20layanan%20GPS%20tracking%20yang%20Anda%20tawarkan.%20Saya%20juga%20ingin%20tahu%20software%20apa%20saja%20yang%20tersedia%20dan%20fitur-fitur%20unggulan%20yang%20dapat%20membantu%20kebutuhan%20bisnis%20saya.%0D%0A%0D%0A1.%20Apa%20saja%20fitur%20unggulan%20dari%20layanan%20GPS%20tracking%20yang%20Anda%20sediakan?%0D%0A2.%20Software%20apa%20saja%20yang%20terintegrasi%20dengan%20layanan%20ini%20dan%20apakah%20ada%20demonstrasi%20yang%20bisa%20saya%20akses?%0D%0A3.%20Apakah%20ada%20penawaran%20khusus%20atau%20paket%20yang%20dapat%20saya%20pertimbangkan?%0D%0A%0D%0ASaya%20akan%20sangat%20berterima%20kasih%20jika%20Anda%20dapat%20memberikan%20informasi%20yang%20diperlukan%20secepatnya.%0D%0A%0D%0ATerima%20kasih%20atas%20perhatiannya.%0D%0A%0D%0AHormat%20saya,%0D%0A[Nama%20Anda]" target="_blank" style="text-decoration: none;">
+    <button class="email-button" style="position: fixed; bottom: 126px; background-color: #2196F3; right: 20px; color: white; padding: 10px; border: none; border-radius: 50%; cursor: pointer; font-size: 16px; display: flex; align-items: center; justify-content: center; transition: background-color 0.3s; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); width: 50px; height: 50px;">
+        <i class="fas fa-envelope" style="color: white; font-size: 24px;"></i>
+    </button>
+</a>
+
+
+    <div class="container">
+        <h3 class="sitename">NusaTrack</h3>
+        <p>Solusi manajemen armada dan pelacakan GPS terkemuka di Indonesia.</p>
+        <div class="social-links d-flex justify-content-center">
+            <a href="https://www.facebook.com/profile.php?id=61566444936828" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/nusatechnoindonesia/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+            <a href="https://linkedin.com/company/nusatrack" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="copyright">
+            <span>Copyright &copy; </span>
+            <strong class="px-1 sitename">NusaTrack Indonesia</strong>
+            <span>All Rights Reserved</span>
+        </div>
+    </div>
+</footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script>
+    function openSurvey() {
+        window.open('https://your-olark-survey-form-link.com', '_blank'); // Replace with your actual survey link
+    }
+</script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+<style>
+  .contact {
+    padding: 60px 0;
+    background: #f9f9f9;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.info-item i {
+    font-size: 30px;
+    color: #007bff;
+    margin-right: 15px;
+}
+
+.info-item h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.whatsapp-button:hover {
+  background-color: white; /* Ubah warna latar belakang saat hover */
+  color: #25D366; /* Ubah warna ikon menjadi hijau saat hover */
+}
+.email-button:hover{
+  
+}
+.loading-spinner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8); /* Latar belakang semi-transparan */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Pastikan di atas elemen lainnya */
+}
+
+.spinner {
+    border: 8px solid #f3f3f3; /* Warna latar belakang spinner */
+    border-top: 8px solid #3498db; /* Warna bagian atas spinner */
+    border-radius: 50%;
+    width: 50px; /* Ukuran spinner */
+    height: 50px; /* Ukuran spinner */
+    animation: spin 1s linear infinite; /* Animasi berputar */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.email-button:hover {
+    background-color: #1e88e5; /* Darker shade on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Slightly more pronounced shadow */
+}
+/* Container and Section Styling */
+.features-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Grid Styling */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.feature-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-item:hover {
+    transform: scale(1.05);
+}
+
+.feature-icon {
+    width: 50px; /* Adjust size as needed */
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    font-size: 18px;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+
+</style>
+<script>
+  const form = document.getElementById('demoForm');
+
+  form.addEventListener('submit', function(event) {
+      event.preventDefault(); // Mencegah pengalihan halaman
+
+      fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: {
+              'Accept': 'application/json'
+          }
+      })
+      .then(response => {
+          if (response.ok) {
+              swal("Terima Kasih! 😊", "Formulir Anda telah berhasil dikirim. Customer service kami akan menghubungi Anda segera.", "success");
+              form.reset(); // Reset formulir setelah pengiriman
+          } else {
+              swal("Gagal!", "Gagal mengirim form. Silakan coba lagi.", "error"); // SweetAlert untuk gagal
+          }
+      })
+      .catch(error => {
+          console.error('Ada kesalahan:', error);
+          swal("Gagal!", "Gagal mengirim form. Silakan coba lagi.", "error"); // SweetAlert untuk error
+      });
+  });
+</script>
+<script>
+  // Mendapatkan elemen loading
+  const loadingElement = document.getElementById('loading');
+
+  // Menampilkan loading spinner
+  function showLoadingSpinner(duration) {
+      loadingElement.style.display = 'flex'; // Tampilkan spinner
+      setTimeout(() => {
+          loadingElement.style.display = 'none'; // Sembunyikan spinner setelah durasi
+      }, duration);
+  }
+
+  // Cek koneksi saat halaman dimuat
+  window.addEventListener('load', function() {
+      if (!navigator.onLine) {
+          // Jika offline, tampilkan spinner lebih lama
+          showLoadingSpinner(4000); // 5000 ms = 5 detik
+      } else {
+          // Jika online, tampilkan spinner selama 3 detik
+          showLoadingSpinner(300); // 3000 ms = 3 detik
+      }
+  });
+
+  // Tambahkan listener untuk perubahan status koneksi
+  window.addEventListener('online', () => {
+      showLoadingSpinner(3000); // Tampilkan spinner selama 3 detik jika kembali online
+  });
+
+  window.addEventListener('offline', () => {
+      showLoadingSpinner(5000); // Tampilkan spinner lebih lama jika offline
+  });
+</script>
+
+
+</body>
+
+</html>
